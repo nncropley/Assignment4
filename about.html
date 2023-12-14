@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>title</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <script>
+        const hamburger = document.querySelector(".hamburger");
+        const navMenu = document.querySelector(".nav-menu");
+        hamburger.addEventListener("click", mobileMenu);
+        function mobileMenu() {
+            hamburger.classList.toggle("active");
+            navMenu.classList.toggle("active");
+        }
+        </script>
+</head>
+<body>
+<header class="header">
+    <nav class="navbar">
+        <a href="index.html" class="nav-logo">Todd's Retro Games</a>
+        <ul class="nav-menu">
+            <li class="nav-item">
+                <a href="products.html" class="nav-link">Products</a>
+            </li>
+            <li class="nav-item">
+                <a href="about.html" class="nav-link">About Us</a>
+            </li>
+        </ul>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+</header>
+
+<h3>About Us</h3>
+<div class="container">
+    <img src="Assignment4/images/7618cb90f6364023ae5c6b1a63e25b96.jpg" alt="store">
+    <p> Welcome to Todd's Retro Games, where nostalgia meets modern gaming passion! Founded in 2005 by Todd Davidson, 
+        a dedicated gamer and collector with a lifelong love for retro gaming, our store is a haven for enthusiasts 
+        seeking classic titles and vintage consoles.
+        At Todd's Retro Games, we specialize in curating a diverse collection of retro video games and consoles from
+         the 80s, 90s, and early 2000s. Our shelves are stocked with beloved classics, rare finds, and timeless favorites,     
+         catering to both seasoned collectors and newcomers eager to explore the roots of gaming history. Currently we only have
+         one location which you can find listed at the bottom of the page, but we are looking to expland very soon with a second
+         store so you can find all the retro games you need close to you!
+    </p>
+</div>  
+    <div class="footer">
+        <p>Todd's Retro Games 1401 Pleasure Street West, Toronto, Ontario MGHJKI</p>
+      </div>
+    
+    
+</body>
